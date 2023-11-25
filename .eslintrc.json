@@ -11,6 +11,8 @@
     {
       "files": ["*.js", "*.jsx"],
       "extends": ["plugin:@nx/javascript"],
+      "extends": ["plugin:@nx/typescript"],
+      "rules": {
       "rules": {}
     },
     {
